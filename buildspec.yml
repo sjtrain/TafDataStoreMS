@@ -4,7 +4,7 @@ phases:
     commands:
       - echo Logging into Docker Hub...
       - DOCKER_PASSWORD=sherin123
-      - DOCKER_USERNAME=sherins
+      - DOCKER_USERNAME=sherins897
       - echo "$DOCKER_PASSWORD" | docker login --username "$DOCKER_USERNAME" --password-stdin
       - echo Logging in to Amazon ECR...
       - AWS_REGION=us-east-1
